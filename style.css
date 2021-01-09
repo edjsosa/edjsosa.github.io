@@ -1,12 +1,87 @@
 /* CSS files add styling rules to your content */
 
+html {
+  background-color: #f2542d;
+  display: grid;
+  margin: auto;
+  width: 75%;
+}
+
 body {
-    font-family: helvetica, arial, sans-serif;
-    margin: 2em;
-  }
-  
-  h1 {
-    font-style: italic;
-    color: #373fff;
-  }
-  
+  max-width: 950px;
+  min-width: 650px;
+  background-color: #f2542d;
+  margin: 25px;
+  padding: 5px;
+  font-family: pinot-grigio-modern, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2em;
+}
+
+header {
+  background-color: #f5dfbb;
+  margin: 5px;
+  padding: 15px;
+  border: 2px solid #f2542d;
+  border-radius: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 5px;
+  padding: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: acier-bat-noir, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2em;
+}
+
+.assignments {
+  background-color: #f5dfbb;
+  margin: 5px;
+  padding: 15px;
+  border: 2px solid #f2542d;
+  border-radius: 10px;
+}
+
+hr {
+  margin: 5px;
+  padding: 0px;
+  border: 2.5px solid #562c2c;
+}
+
+.assignments ul {
+  margin: 0px;
+  padding: 0px;
+  padding-left: 40px;
+}
+
+footer {
+  background-color: #f5dfbb;
+  margin: 5px;
+  padding: 15px;
+  border: 2px solid #f2542d;
+  border-radius: 10px;
+}
+
+footer ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+}
+
+#online_learning {
+  grid-column: span 3;
+  grid-row: 2;
+}
