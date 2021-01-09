@@ -3,6 +3,8 @@
 html {
   background-color: #f2542d;
   display: grid;
+  justify-items: center;
+  align-items: center;
   margin: auto;
   width: 75%;
 }
@@ -28,8 +30,7 @@ header {
 }
 
 #top_image {
-  margin-top: 5px;
-  margin-right: 5px;
+  margin: 5px;
   width: 225px;
   float: right;
   box-shadow: 5px 5px #0E9594, 10px 10px #127475;
@@ -85,14 +86,22 @@ footer ul {
   list-style: none;
 }
 
+footer ul li {
+  margin: 5px;
+}
+
 #footer_1st {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
 }
 
 #footer_2nd {
-  display: grid;
-  grid-template-columns: auto auto;
-  justify-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
 }
