@@ -28,7 +28,11 @@ header {
 }
 
 #top_image {
-  width: 100px;
+  margin-top: 5px;
+  margin-right: 5px;
+  width: 225px;
+  float: right;
+  box-shadow: 5px 5px #0E9594, 10px 10px #127475;
 }
 
 h1,
