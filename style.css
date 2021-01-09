@@ -75,13 +75,16 @@ footer ul {
   margin: 0px;
   padding: 0px;
   list-style: none;
+}
+
+#footer_1st {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
   justify-items: center;
 }
 
-#online_learning {
-  grid-column: span 3;
-  grid-row: 2;
+#footer_2nd {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-items: center;
 }
